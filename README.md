@@ -11,7 +11,7 @@ I have a project, which use asio coroutine for tcp and udp, and i also want to s
 ## Warning
 - The coding is mainly generater by ai.
 - Temp no test and memory safe check.
-- Websockets seems cant use.
+- Api is unstable.
 - Performance: maybe fast because depend on the one of the best net library and httpparser, but ACH dont do anything to make sure the performance, so actully cant to have high performance. And also have no ability to compare to the profession http server.
 
 ## Depend

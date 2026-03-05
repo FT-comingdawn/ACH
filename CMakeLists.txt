@@ -5,6 +5,9 @@ find_package(OpenSSL REQUIRED)
 
 add_library(ACH
     src/WebServer.cpp
+    src/HttpRequest.cpp
+    src/HttpResponse.cpp
+    src/WsConnection.cpp
 )
 
 target_include_directories(ACH
